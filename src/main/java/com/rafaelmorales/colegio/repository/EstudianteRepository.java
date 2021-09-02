@@ -6,5 +6,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface EstudianteRepository extends JpaRepository<Estudiante, Long> {
     Estudiante findByEdadAndEstado (int edad, Estado estado);
+
     
 }
